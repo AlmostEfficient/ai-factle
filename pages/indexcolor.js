@@ -139,12 +139,12 @@ const Home = () => {
     return (
       <div className="root">
         <Head>
-          <title>Wordle generator | buildspace</title>
+          <title>Factle generator | buildspace</title>
         </Head>
         <div className="container">
           <div className="header">
             <div className="header-title">
-              <h1>AI Wordle Generator</h1>
+              <h1>AI Factle Generator</h1>
             </div>
             <div className="header-subtitle">
               <h2>What do you want your game to be about?</h2>

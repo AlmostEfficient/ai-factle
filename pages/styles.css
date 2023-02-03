@@ -25,7 +25,6 @@ body {
     align-items: center;
     flex: 0 0 auto;
     flex-flow: column nowrap;
-    gap: 10px;
     height: fit-content;
     max-width: 975px;
     overflow: auto;
@@ -440,7 +439,7 @@ textarea {
     }
 
     .prompt-container {
-        max-width: 500px;
+        max-width: 320px;
         width: 100%;
     }
 
@@ -453,13 +452,16 @@ textarea {
     .container {
         max-width: 400px;
         width: 100%;
+        gap: 12px;
     }
 
     .header-title h1 {
         font-size: 50px;
+        margin-top: 15px;
     }
 
     .header-subtitle h2 {
+        font-size: 1.1em;
         text-align: center;
     }
 
@@ -469,15 +471,65 @@ textarea {
 
     .prompt-buttons {
         justify-content: center;
+        font-size: 0.9em;
     }
 
     .prompt-container {
-        max-width: 400px;
+        max-width: 300px;
         width: 100%;
     }
 
     .prompt-box {
         width: 100%;
+        margin: 0px;
+    }
+
+    .badge-container{
+        margin-bottom: 20px;
+    }
+
+        
+    .question h3 {
+        font-size: 18px;
+        text-align: center;
+        margin: 5px 0;
+    }
+    
+    .selection-grid{
+        max-width: 300px;
+        font-size: 0.2em;
+    }
+
+    .square{
+        font-size: 16px;
+    }
+
+    .answer-grid {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        margin: 5px 0;
+        font-size: 0.8em;
+        gap: 2px;
+    }
+
+    .answer-button {
+        font-size: 16px;
+        width: 25%;
+        margin: 5px 1.5%;
+    }
+    
+    .controls {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 15% 0;
+    }
+    
+    .undo-button,
+    .enter-button {
+    width: 40%;
+    margin: 0 10px;
+    font-size: 16px;
     }
 }
 
