@@ -29,7 +29,6 @@ const dummyOptions = [
 
 const Home = () => {
   const [userInput, setUserInput] = useState('');
-  const [apiOutput, setApiOutput] = useState('');
   const [isGenerating, setIsGenerating] = useState(false);
   const [options, setOptions] = useState();
   const [selections, setSelections] = useState(Array(9).fill('?'));
